@@ -7,8 +7,8 @@ export const Home = ()=>{
      console.log(token,isAuthenticated)
     //    const Navigate = useNavigate() ; 
 
-    //  if(!isAuthenticated){
-    //    return <Navigate to ="/login"/>   
-    //  }
+     if(!isAuthenticated){
+       return <Navigate to ="/login"/>   
+     }
      return <div>shashi</div>
 }
